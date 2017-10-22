@@ -102,7 +102,7 @@ const resolverFunctions = {
   MyCustomScalar: myCustomScalarType
 };
 
-const jsSchema = makeExecutableSchema({ typeDefs: schemaString, resolvers: resolveFunctions });
+const jsSchema = makeExecutableSchema({ typeDefs: schemaString, resolvers: resolverFunctions });
 ```
 
 ## Examples
